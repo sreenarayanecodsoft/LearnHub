@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="learnstyle.css">
+    <title>LearnHub - Master Your Skills 🚀</title>
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio id="bg-music" autoplay loop>
+        <source src="images/bg-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Header Section with Neon Glow -->
+    <header>
+        <h1 class="neon-glow">🚀 Welcome to LearnHub!</h1>
+        <nav>
+            <a href="#" onclick="showCourses()" class="neon-btn">📚 Courses</a>
+            <a href="#" onclick="showQuiz()" class="neon-btn">🎮 Quiz</a>
+            <a href="#" onclick="showProgress()" class="neon-btn">📈 Progress</a>
+            <a href="#" onclick="showForum()" class="neon-btn">💬 Forum</a>
+            <a href="#" onclick="showLeaderboard()" class="neon-btn">🏆 Leaderboard</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section with GIF -->
+    <section id="hero" class="parallax">
+        <h2 class="typewriter">Level Up Your Skills with Interactive Learning!</h2>
+        <button class="glow-btn" onclick="startLearning()">✨ Start Now!</button>
+    </section>
+
+    <!-- Content Section to Load Dynamic Content -->
+    <section id="content" class="content-box"></section>
+
+    <!-- Animated Footer with Neon Glow -->
+    <footer>
+        <p>&copy; 2025 LearnHub | Where Learning Meets Adventure! 🌟</p>
+    </footer>
+
+    <script src="learnlogic.js"></script>
+</body>
+</html>

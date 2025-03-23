@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/bg-hero.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    transition: background 0.5s ease;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+}
+
+h1.neon-glow {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+}
+
+nav a {
+    margin: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(45deg, #ff00ff, #ffeb3b);
+    border-radius: 30px;
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+nav a:hover {
+    box-shadow: 0 0 30px #ffeb3b, 0 0 50px #ff00ff;
+    transform: scale(1.1);
+}
+
+#hero {
+    height: 300px;
+    background-image: url('images/bg-parallax.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#hero h2 {
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 0 0 10px #ff00ff;
+}
+
+.glow-btn {
+    padding: 15px 30px;
+    background: linear-gradient(45deg, #ff00ff, #ffeb3b);
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 20px #ff00ff;
+}
+
+.glow-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #ffeb3b, 0 0 50px #ff00ff;
+}
+
+.content-box {
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: 0 5px 30px rgba(255, 255, 255, 0.2);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    color: #ffeb3b;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #121212;
+}
